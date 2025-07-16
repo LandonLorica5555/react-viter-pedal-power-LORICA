@@ -60,7 +60,7 @@ const Home = () => {
                 
 
                 {/* Mountain Biking Card */}
-                <CardHeroHomePage imageUrl={"https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"} Alt={"Mountain biking"} title={"Mountain Biking"} description={"Trails, adrenaline, and outdoor adventure"} buttonTextColor={"text-blue-700"}/>  
+                <CardHeroHomePage imageUrl={"/images/webp/Mountain Biking Card.webp"} Alt={"Mountain biking"} title={"Mountain Biking"} description={"Trails, adrenaline, and outdoor adventure"} buttonTextColor={"text-blue-700"}/>  
               </div>
             </div>
 
@@ -78,15 +78,15 @@ const Home = () => {
 
                 <div className="grid md:grid-cols-3 gap-8">
                   {/* Event 1 */}
-                  <EventCardHomePage imageUrl={"https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"} Alt={"Alpine Challenge"} title={"Alpine Challenge"} spanBgColor={"bg-green-900"} spanTextColor={"text-green-300"} bikingType={"Road"} date={"June 15-17, 2023"} location={"Swiss Alps"}/>
+                  <EventCardHomePage imageUrl={"/images/webp/cycling events 1.webp"} Alt={"Alpine Challenge"} title={"Alpine Challenge"} spanBgColor={"bg-green-900"} spanTextColor={"text-green-300"} bikingType={"Road"} date={"June 15-17, 2023"} location={"Swiss Alps"}/>
                   
 
                   {/* Event 2 */}
-                  <EventCardHomePage imageUrl={"https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"} Alt={"Trail Masters"} title={"Trail Masters"} spanBgColor={"bg-blue-900"} spanTextColor={"text-blue-300"} bikingType={"Mountain"} date={"July 8-9, 2023"} location={"Moab, Utah"}/>
+                  <EventCardHomePage imageUrl={"/images/webp/cycling events 2.webp"} Alt={"Trail Masters"} title={"Trail Masters"} spanBgColor={"bg-blue-900"} spanTextColor={"text-blue-300"} bikingType={"Mountain"} date={"July 8-9, 2023"} location={"Moab, Utah"}/>
                  
 
                   {/* Event 3 */}
-                  <EventCardHomePage imageUrl={"https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"} Alt={"Urban Sprint"} title={"Urban Sprint"} spanBgColor={"bg-green-900"} spanTextColor={"text-green-300"} bikingType={"Road"} date={"August 5, 2023"} location={"New York City"}/>
+                  <EventCardHomePage imageUrl={"/images/webp/cycling events 3.webp"} Alt={"Urban Sprint"} title={"Urban Sprint"} spanBgColor={"bg-green-900"} spanTextColor={"text-green-300"} bikingType={"Road"} date={"August 5, 2023"} location={"New York City"}/>
                   
                 </div>
               </div>
